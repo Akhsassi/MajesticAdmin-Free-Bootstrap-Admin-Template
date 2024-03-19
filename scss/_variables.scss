@@ -1,5 +1,5 @@
 
-////////// COLOR SYSTEM //////////
+
 
 $blue:              #5E50F9;
 $indigo:            #6610f2;
@@ -88,17 +88,17 @@ $theme-gradient-colors: (
   dark:            linear-gradient(to right, #7d7979 0%, #000000 100%)
 );
 
-////////// COLOR SYSTEM //////////
 
-////////// COLOR VARIABLES //////////
+
+
 $content-bg: #f3f3f3;
 $border-color: #f3f3f3;
 
-////////// COLOR VARIABLES //////////
 
 
 
-////////// SOCIAL COLORS //////////
+
+
 
 $social-colors: (
   twitter: #2caae1,
@@ -113,26 +113,26 @@ $social-colors: (
   reddit: #ff4500
 );
 
-////////// SOCIAL COLORS //////////
 
-////////// FONTS//
+
+
 
 $type:     'Roboto', sans-serif;
 
-$default-font-size: .875rem; // 14px as base font size
+$default-font-size: .875rem;
 
 $text-muted: #686868;
 $body-color: #000;
 
-////////// FONT VARIABLES //////////
 
-///////// FOOTER ////////
+
+
 $footer-height: 75px;
 $footer-bg: $content-bg;
 $footer-color: color(dark);
-///////// FOOTER ////////
 
-///////// BUTTONS ////////
+
+
 
 $button-fixed-width:        150px;
 $btn-padding-y:       .75rem;
@@ -158,10 +158,10 @@ $btn-border-radius-xs:      .1875rem;
 $btn-border-radius-sm:      .1875rem;
 $btn-border-radius-lg:      .1875rem;
 
-///////// BUTTONS ////////
 
 
-/////////  FORMS /////////
+
+
 
 $input-bg:                color(white);
 $input-border-radius:     2px;
@@ -185,18 +185,18 @@ $input-padding-x-sm:    .81rem;
 $input-padding-y-lg:    .94rem;
 $input-padding-x-lg:    1.94rem;
 
-///////// FORMS /////////
 
-////////  DROPDOWNS ///////
+
+
 
 $dropdown-border-color: $border-color;
 $dropdown-divider-bg:   $border-color;
 $dropdown-link-color:   $body-color;
 $dropdown-header-color: $body-color;
 $dropdown-link-hover-bg: #eaeaf1;
-////////  DROPDOWNS ///////
 
-//////// TABLES ////////
+
+
 
 $table-accent-bg: transparent;
 $table-hover-bg:  #eaeaf1;
@@ -206,11 +206,11 @@ $table-border-color: $border-color;
 $table-inverse-bg: #2a2b32;
 $table-inverse-color: color(white);
 
-//////// TABLES ////////
 
 
 
-////////// MEASUREMENT AND PROPERTY VARIABLES //////////
+
+
 
 $border-property: 1px solid $border-color;
 $card-spacing-y: 1.875rem;
@@ -224,11 +224,11 @@ $card-description-color: #76838f;
 $grid-gutter-width: 20px;
 $action-transition-duration: 0.25s;
 $action-transition-timing-function: ease;
-////////// OTHER VARIABLES //////////
 
 
 
-/////////  TABS VARIABLES //////////
+
+
 $nav-tabs-border-color:             #ebedf2;
 $nav-tabs-link-bg:                  #f6f8fa;
 $nav-tabs-link-color:               #000000;
@@ -237,15 +237,15 @@ $nav-tabs-link-active-color:        $body-color;
 $nav-tabs-link-active-bg:           $white;
 $nav-tabs-link-active-border-color: $nav-tabs-border-color $nav-tabs-border-color $nav-tabs-link-active-bg;
 $nav-pills-custom-bg:               #fcfcfd;
-////////   TABS VARIABLES /////////
 
 
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
-////////// SIDEBAR ////////
+
+
+
 $sidebar-width-lg: 257px;
 $sidebar-width-mini: 185px;
 $sidebar-width-icon: 70px;
@@ -292,10 +292,10 @@ $rtl-sidebar-submenu-padding: 0 4.5rem 0 0;
 $icon-only-collapse-width: 190px;
 $icon-only-menu-bg-light: $sidebar-light-bg;
 
-///////// SIDEBAR ////////
 
 
-///////// NAVBAR ////////
+
+
 
 $navbar-default-bg: $white;
 $navbar-height: 60px;
@@ -303,6 +303,6 @@ $navbar-menu-color: #9b9b9b;
 $navbar-font-size: .875rem;
 $navbar-icon-font-size: .9375rem;
 
-///////// NAVBAR ////////
+
 
 $buy-nowbanner-padding-top:60px;

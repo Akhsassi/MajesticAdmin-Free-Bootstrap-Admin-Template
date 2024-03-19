@@ -1,4 +1,4 @@
-/* Icons */
+
 
 .icons-list {
   border-left: 1px solid $border-color;
@@ -44,7 +44,7 @@
   font-size: 1rem;
 }
 
-/*icon boxes*/
+
 @each $color, $value in $theme-colors {
   .icon-box-#{$color} {
     width: 2.812rem;

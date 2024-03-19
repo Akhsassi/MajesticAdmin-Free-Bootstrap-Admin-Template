@@ -57,26 +57,26 @@
 -------------------------------------------------------------------*/
 
 
-/*-------------------------------------------------------------------*/
-/* === Import Bootstrap functions and variables === */
+
+
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
 
-/*-------------------------------------------------------------------*/
-/* === Import template variables === */
+
+
 @import "variables";
 
-/*-------------------------------------------------------------------*/
-/* === SCSS Compass Functions === */
+
+
 @import "../node_modules/compass-mixins/lib/compass";
 @import "../node_modules/compass-mixins/lib/animate";
 
-/*-------------------------------------------------------------------*/
-/* === Boostrap Main SCSS === */
+
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-/*-------------------------------------------------------------------*/
-/* === Template mixins === */
+
+
 @import "mixins/misc";
 @import "mixins/animation";
 @import "mixins/badges";
@@ -84,8 +84,8 @@
 @import "mixins/buttons";
 @import "mixins/cards";
 
-/*-------------------------------------------------------------------*/
-/* === Core Styles === */
+
+
 @import "reset";
 @import "fonts";
 @import "functions";
@@ -96,8 +96,8 @@
 @import "utilities";
 @import "demo";
 
-/*-------------------------------------------------------------------*/
-/* === Components === */
+
+
 @import "components/buttons";
 @import "components/badges";
 @import "components/bootstrap-progress";
@@ -109,16 +109,16 @@
 @import "components/lists";
 @import "components/tables";
 
-/*-------------------------------------------------------------------*/
 
 
-/* === Plugin overrides === */
+
+
 @import "components/plugin-overrides/data-tables";
 
-/*-------------------------------------------------------------------*/
 
 
-/* === Landing screens === */
+
+
 @import "landing-screens/auth";
 
 

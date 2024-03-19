@@ -25,7 +25,7 @@ require_once __DIR__ . "/../conn.php";
 
 session_start();
 
-// Assuming $pdo is your database connection
+
 $stmt = $pdo->query("SELECT SUM(quantity * price) AS total_sales FROM orders");
 $row = $stmt->fetch(PDO::FETCH_ASSOC);
 $total_sales = $row['total_sales'];
@@ -268,10 +268,10 @@ $total_sales = $row['total_sales'];
                       </div>
 
                       <?php
-                      // Assuming you have already established a database connection
-// You can use PDO or mysqli to connect to your database
+                     
+
                       
-                      // Query to get the number of customers
+                     
                       $stmt = $pdo->query("SELECT COUNT(*) as num_customers FROM users WHERE role = 'customer'");
                       $result = $stmt->fetch(PDO::FETCH_ASSOC);
                       $num_customers = $result['num_customers'];
@@ -283,7 +283,7 @@ $total_sales = $row['total_sales'];
                         <div class="d-flex flex-column justify-content-around">
                           <small class="mb-1 text-muted">Customers</small>
                           <?php
-                          // Assuming you have already established a database connection and retrieved the $num_customers variable as shown in the previous code snippet
+                         
                           echo '<h5 class="me-2 mb-0">' . $num_customers . '</h5>';
                     
 ?>
@@ -396,7 +396,7 @@ $total_sales = $row['total_sales'];
                     </thead>
                     <tbody>
                       <?php
-                      // Assuming $db is your database connection                        
+                     
                       $stmt = $pdo->prepare("SELECT os.*, pd.name as product FROM orders os INNER JOIN products pd ON os.product_id = pd.id");
                       $stmt->execute();
                       $result = $stmt->fetchAll(PDO::FETCH_ASSOC);

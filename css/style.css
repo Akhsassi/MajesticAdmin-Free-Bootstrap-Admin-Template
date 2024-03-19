@@ -52,12 +52,12 @@
     + Navbar
     + Layouts
 -------------------------------------------------------------------*/
-/*-------------------------------------------------------------------*/
-/* === Import Bootstrap functions and variables === */
-/*-------------------------------------------------------------------*/
-/* === Import template variables === */
-/*-------------------------------------------------------------------*/
-/* === SCSS Compass Functions === */
+
+
+
+
+
+
 @-moz-keyframes flash {
   0% {
     opacity: 1;
@@ -8578,8 +8578,8 @@
   }
 }
 
-/*-------------------------------------------------------------------*/
-/* === Boostrap Main SCSS === */
+
+
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -8836,7 +8836,7 @@ kbd,
 samp {
   font-family: var(--bs-font-monospace);
   font-size: 1em;
-  direction: ltr /* rtl:ignore */;
+  direction: ltr ;
   unicode-bidi: bidi-override;
 }
 
@@ -13434,7 +13434,7 @@ fieldset:disabled .btn {
   float: left;
   padding-right: 0.5rem;
   color: #6c757d;
-  content: var(--bs-breadcrumb-divider, "/") /* rtl: var(--bs-breadcrumb-divider, "/") */;
+  content: var(--bs-breadcrumb-divider, "/") ;
 }
 
 .breadcrumb-item.active {
@@ -14590,7 +14590,7 @@ fieldset:disabled .btn {
 .popover {
   position: absolute;
   top: 0;
-  left: 0 /* rtl:ignore */;
+  left: 0 ;
   z-index: 1070;
   display: block;
   max-width: 276px;
@@ -14771,7 +14771,7 @@ fieldset:disabled .btn {
   display: block;
 }
 
-/* rtl:begin:ignore */
+
 .carousel-item-next:not(.carousel-item-start),
 .active.carousel-item-end {
   transform: translateX(100%);
@@ -14782,7 +14782,7 @@ fieldset:disabled .btn {
   transform: translateX(-100%);
 }
 
-/* rtl:end:ignore */
+
 .carousel-fade .carousel-item {
   opacity: 0;
   transition-property: opacity;
@@ -14949,7 +14949,7 @@ fieldset:disabled .btn {
 
 @keyframes spinner-border {
   to {
-    transform: rotate(360deg) /* rtl:ignore */;
+    transform: rotate(360deg) ;
   }
 }
 
@@ -16444,13 +16444,13 @@ fieldset:disabled .btn {
   white-space: nowrap !important;
 }
 
-/* rtl:begin:remove */
+
 .text-break {
   word-wrap: break-word !important;
   word-break: break-word !important;
 }
 
-/* rtl:end:remove */
+
 .text-primary {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
@@ -19235,10 +19235,10 @@ fieldset:disabled .btn {
   }
 }
 
-/*-------------------------------------------------------------------*/
-/* === Template mixins === */
-/* Miscellaneous Mixins */
-/* Animation Mixins */
+
+
+
+
 @keyframes dropdownAnimation {
   from {
     opacity: 0;
@@ -19309,9 +19309,9 @@ fieldset:disabled .btn {
   animation-name: fadeInUp;
 }
 
-/*-------------------------------------------------------------------*/
-/* === Core Styles === */
-/* Reset Styles */
+
+
+
 body {
   padding: 0;
   margin: 0;
@@ -19545,7 +19545,7 @@ input:focus {
   background: linear-gradient(to right, #7d7979 0%, #000000 100%);
 }
 
-/* Typography */
+
 body {
   font-size: 1rem;
   font-family: "Roboto", sans-serif;
@@ -19787,7 +19787,7 @@ address p {
   font-weight: 500;
 }
 
-/* Miscellanoeous */
+
 body,
 html {
   overflow-x: hidden;
@@ -19819,7 +19819,7 @@ code {
   border-radius: 4px;
 }
 
-/* Footer */
+
 .footer {
   background: #f3f3f3;
   color: color(dark);
@@ -19846,7 +19846,7 @@ code {
   }
 }
 
-/* Utilities */
+
 .grid-margin {
   margin-bottom: 1.875rem;
 }
@@ -20182,7 +20182,7 @@ code {
   cursor: pointer;
 }
 
-/* Demo Styles */
+
 .template-demo .progress {
   margin-top: 1.5rem;
 }
@@ -20385,15 +20385,15 @@ code {
   padding-top: 60px !important;
 }
 
-/*-------------------------------------------------------------------*/
-/* === Components === */
-/* Buttons */
+
+
+
 .btn {
   font-size: 0.875rem;
   line-height: 1;
   font-weight: 400;
-  /* Buttons with only icons */
-  /* Buttons with icon and text */
+  
+  
 }
 
 .btn i {
@@ -20441,7 +20441,7 @@ code {
   border-left: 0;
 }
 
-/*social buttons*/
+
 .btn-twitter {
   background: #2caae1;
   color: #ffffff;
@@ -20762,7 +20762,7 @@ code {
   color: #ffffff;
 }
 
-/* inverse buttons */
+
 .btn-inverse-primary {
   background-color: rgba(77, 131, 255, 0.2);
   background-image: none;
@@ -21051,7 +21051,7 @@ code {
   box-shadow: 0 2px 2px 0 rgba(40, 47, 58, 0.14), 0 3px 1px -2px rgba(40, 47, 58, 0.2), 0 1px 5px 0 rgba(40, 47, 58, 0.12);
 }
 
-/* Badges */
+
 .badge {
   border-radius: 0;
   font-size: 12px;
@@ -21064,7 +21064,7 @@ code {
   border-radius: 10rem;
 }
 
-/*Badge outlined variations*/
+
 .badge-outline-primary {
   color: #4d83ff;
   border: 1px solid #4d83ff;
@@ -21105,7 +21105,7 @@ code {
   border: 1px solid #282f3a;
 }
 
-/* Bootstrap Progress */
+
 .progress {
   border-radius: 3px;
   height: 8px;
@@ -21131,7 +21131,7 @@ code {
   height: 18px;
 }
 
-/* Cards */
+
 .card {
   box-shadow: none;
   -webkit-box-shadow: none;
@@ -21286,7 +21286,7 @@ code {
   color: theme-color-level(#282f3a, 3);
 }
 
-/* Checkboxes and Radios */
+
 .form-check {
   position: relative;
   display: block;
@@ -21560,7 +21560,7 @@ code {
   background: #282f3a;
 }
 
-/* Dropdowns */
+
 .dropdown .dropdown-toggle:after {
   border-top: 0;
   border-right: 0;
@@ -21592,7 +21592,7 @@ code {
   background: initial;
 }
 
-/* Forms */
+
 .form-group {
   margin-bottom: 1.5rem;
 }
@@ -21714,7 +21714,7 @@ select.form-control.border-dark:focus, .dataTables_wrapper select.border-dark:fo
   background: transparent;
 }
 
-/* Icons */
+
 .icons-list {
   border-left: 1px solid #f3f3f3;
   border-top: 1px solid #f3f3f3;
@@ -21765,7 +21765,7 @@ select.form-control.border-dark:focus, .dataTables_wrapper select.border-dark:fo
   font-size: 1rem;
 }
 
-/*icon boxes*/
+
 .icon-box-primary {
   width: 2.812rem;
   height: 2.812rem;
@@ -21958,7 +21958,7 @@ select.form-control.border-dark:focus, .dataTables_wrapper select.border-dark:fo
   font-size: 2.5rem;
 }
 
-/* Lists */
+
 ul,
 ol,
 dl {
@@ -22106,7 +22106,7 @@ dl li {
   right: 7px;
 }
 
-/* Tables */
+
 .table {
   margin-bottom: 0;
 }
@@ -22165,9 +22165,9 @@ dl li {
   border-top: none;
 }
 
-/*-------------------------------------------------------------------*/
-/* === Plugin overrides === */
-/* Data Tables */
+
+
+
 .dataTables_wrapper {
   padding-left: 0;
   padding-right: 0;
@@ -22263,9 +22263,9 @@ dl li {
   }
 }
 
-/*-------------------------------------------------------------------*/
-/* === Landing screens === */
-/* Auth */
+
+
+
 .auth .login-half-bg {
   background: url("../images/auth/login-bg.jpg");
   background-size: cover;
@@ -22412,7 +22412,7 @@ dl li {
   }
 }
 
-/* Sidebar */
+
 .sidebar {
   min-height: calc(100vh - 60px);
   background: #ffffff;
@@ -22614,7 +22614,7 @@ dl li {
   background: transparent;
 }
 
-/* style for off-canvas menu*/
+
 @media screen and (max-width: 991px) {
   .sidebar-offcanvas {
     position: fixed;
@@ -22632,7 +22632,7 @@ dl li {
   }
 }
 
-/* Navbar */
+
 .navbar {
   font-weight: 400;
   transition: background 0.25s ease;
@@ -23018,7 +23018,7 @@ dl li {
   }
 }
 
-/* Layouts */
+
 @media (min-width: 992px) {
   .sidebar-icon-only .navbar .navbar-brand-wrapper {
     width: 70px;
@@ -23187,4 +23187,4 @@ dl li {
   outline: 1px solid slategrey;
 }
 
-/*# sourceMappingURL=maps/style.css.map */
+

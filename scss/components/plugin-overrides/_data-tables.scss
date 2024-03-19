@@ -1,4 +1,4 @@
-/* Data Tables */
+
 
 .dataTables_wrapper {
   padding-left: 0;
@@ -18,7 +18,7 @@
     }
   }
   .dataTable {
-    border-collapse: collapse !important; // to override the style given by the dataTable
+    border-collapse: collapse !important;
     .btn {
       padding: 0.1rem 1rem;
       vertical-align: top;
