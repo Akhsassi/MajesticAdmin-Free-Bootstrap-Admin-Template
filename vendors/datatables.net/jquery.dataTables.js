@@ -7500,7 +7500,8 @@
 	 *   should operate on. If not given, all tables in the current context are
 	 *   used. This can be given as a jQuery selector (for example `':gt(0)'`) to
 	 *   select multiple tables or as an integer to select a single table.
-	 * @returns {DataTable.Api} Returns a new API instance if a selector is given.
+	 * @returns {DataTable.Api} 
+	  a new API instance if a selector is given.
 	 */
 	_api_register( 'tables()', function ( selector ) {
 		// A new instance is created if there was a selector specified

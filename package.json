@@ -1,8 +1,8 @@
 {
-  "name": "Majestic_admin",
+  "name": "Shop Agadir_admin",
   "version": "1.1.0",
   "description": "",
-  "main": "index.html",
+  "main": "index.php",
   "dependencies": {
     "@mdi/font": "^3.6.95",
     "bootstrap": "5.1.3",
